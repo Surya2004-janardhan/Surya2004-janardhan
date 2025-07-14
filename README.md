@@ -59,15 +59,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Surya2004-janardhan&show_icons=true&theme=tokyonight" />
-  <br />
-  <img src="https://streak-stats.demolab.com?user=Surya2004-janardhan&theme=tokyonight" />
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Surya2004-janardhan&layout=compact&theme=tokyonight" />
-</p>
 
 ---
 
