@@ -18,7 +18,7 @@
 ## 🛠️ My Tech Stack
 
 ### 🚀 Languages & Frameworks
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/SQL-003B57?style=flat&logo=postgresql&logoColor=white" />
@@ -26,7 +26,7 @@
 </p>
 
 ### 🧩 Frontend
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react" />
   <img src="https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white" />
@@ -36,7 +36,7 @@
 </p>
 
 ### 🔧 Backend
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white" />
   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white" />
@@ -44,13 +44,13 @@
 </p>
 
 ### 🤖 LLMs & AI
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/HuggingFace-FFD21F?style=flat&logo=huggingface&logoColor=black" />
 </p>
 
 ### 🛠️ Tools & Platforms
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" />
@@ -63,13 +63,17 @@
 
 ## 📫 Let's Connect
 
-<p align="center">
-  <a href="mailto:chintalajanardhan2004@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
-  
-  <a href="https://linkedin.com/in/surya-janardhan-chintala-a19403254"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
-  
-  <a href="https://surya2004-janardhan.github.io/Portfolio_/"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white" /></a>
-</p>
+  <p align="center">
+    <a href="mailto:chintalajanardhan2004@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
+  </p>
+  <p align="center">
+    <a href="https://linkedin.com/in/surya-janardhan-chintala-a19403254"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
+  </p>
+
+  <p align="center">
+    <a href="https://surya2004-janardhan.github.io/Portfolio_/"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white" /></a>
+  </p>
+
 
 ---
 
