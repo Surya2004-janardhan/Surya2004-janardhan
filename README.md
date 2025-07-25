@@ -60,14 +60,14 @@
 ---
 
 
----
-
 
 ## 📫 Let's Connect
 
 <p align="center">
   <a href="mailto:chintalajanardhan2004@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
+  
   <a href="https://linkedin.com/in/surya-janardhan-chintala-a19403254"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
+  
   <a href="https://surya2004-janardhan.github.io/Portfolio_/"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white" /></a>
 </p>
 
