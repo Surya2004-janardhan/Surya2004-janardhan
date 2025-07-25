@@ -1,4 +1,4 @@
-<h1 align="center">Hey there! 👋 I'm Janardhan</h1>
+<h1 align="center">Surya Janardhan </h1>
 
 <p align="center">
   🚀 Full Stack Developer | ⚛️ React & Native Dev | 🧠 LLM Explorer | 🧩 Problem Solver
