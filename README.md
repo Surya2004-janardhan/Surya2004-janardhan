@@ -51,6 +51,10 @@
   <td align="center">
     <img src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white&style=flat-square"/>
     <img src="https://img.shields.io/badge/HuggingFace-FFD21F?logo=huggingface&logoColor=black&style=flat-square"/>
+    <img src="https://img.shields.io/badge/LangChain-0072b1?logo=langchain&logoColor=white&style=flat-square"/>
+   <img src="https://img.shields.io/badge/RAG%20FSSAI%20DB-32CD32?logo=database&logoColor=white&style=flat-square"/>
+
+   
   </td>
   <td align="center">
     <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=flat-square"/>
