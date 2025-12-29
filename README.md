@@ -48,11 +48,6 @@
   <a href="https://surya2004-janardhan.github.io/Portfolio_/"><img src="https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white&style=flat-square" /></a>
 </p>
 
----
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=💡+Code.+Create.+Innovate.;⚡+Turning+ideas+into+reality.;🚀+One+commit+at+a+time." />
-</p>
 <!-- --- -->
 
 
