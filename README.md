@@ -28,11 +28,10 @@
 </p>
 
 ---
-
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=surya2004-janardhan&show_icons=true&theme=radical" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=surya2004-janardhan&layout=compact&theme=radical" height="160" />
-</p>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=surya2004-janardhan&layout=compact&theme=radical" height="160" /> -->
+<!-- </p> -->
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=surya2004-janardhan&theme=radical" />
