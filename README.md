@@ -17,15 +17,6 @@
 ---
 
 <p align="center">
-  🔭 Crafting <b>Full-Stack Products</b> with React, Node.js, MongoDB & SQL <br>
-  🌱 Exploring <b>AI/LLMs</b> to build intelligent next-gen apps <br>
-  💡 Turning complex problems into clean & elegant solutions <br>
-  🎨 Currently vibing with: <i>React • Expo • Tailwind • Python • Express • LangChain</i>
-</p>
-
----
-
-<p align="center">
   <!-- Mainstream Skills -->
   <img src="https://skillicons.dev/icons?i=js,ts,python,react,nodejs,express,mongodb,mysql,html,css,tailwind,git,github,vscode,postman" />
 </p>
