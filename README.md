@@ -40,8 +40,6 @@
 
 ---
 
-<h3 align="center">📫 Find Me Around the Web</h3>
-
 <p align="center">
   <a href="mailto:chintalajanardhan2004@example.com"><img src="https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white&style=flat-square" /></a>
   &nbsp;
