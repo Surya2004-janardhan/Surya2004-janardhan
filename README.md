@@ -18,7 +18,7 @@
 
 <p align="center">
   <!-- Mainstream Skills -->
-  <img src="https://skillicons.dev/icons?i=js,ts,python,react,nodejs,express,mongodb,mysql,html,css,tailwind,git,github,vscode,postman" />
+  <img src="https://skillicons.dev/icons?i=js,ts,python,react,nodejs,express,mongodb,mysql,html,css,tailwind,git,github,docker,vscode,postman" />
 </p>
 
 <p align="center">
