@@ -61,7 +61,7 @@
 
 <!-- Tech Stack with Pixel Theme -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,python,react,nodejs,express,mongodb,mysql,html,css,tailwind,git,github,docker,vscode,postman&perline=8&theme=light" />
+  <img src="https://skillicons.dev/icons?i=js,ts,python,react,nodejs,express,mongodb,mysql,html,css,tailwind,git,github,docker,vscode,postman&perline=8" />
 </p>
 
 <!-- Additional Tech Badges with Cozy Colors -->
@@ -135,15 +135,15 @@
 <!-- Contact badges with warm colors -->
 <p align="center">
   <a href="mailto:chintalajanardhan2004@example.com">
-    <img src="https://img.shields.io/badge/Email-FFB6C1?logo=gmail&logoColor=white&style=for-the-badge" height="40"/>
+    <img src="https://img.shields.io/badge/Email-FF69B4?logo=gmail&logoColor=white&style=for-the-badge" height="40"/>
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://linkedin.com/in/surya-janardhan-chintala-a19403254">
-    <img src="https://img.shields.io/badge/LinkedIn-FF69B4?logo=linkedin&logoColor=white&style=for-the-badge" height="40"/>
+    <img src="https://img.shields.io/badge/LinkedIn-FF1493?logo=linkedin&logoColor=white&style=for-the-badge" height="40"/>
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://surya2004-janardhan.github.io/Portfolio_/">
-    <img src="https://img.shields.io/badge/Portfolio-FFA07A?logo=vercel&logoColor=white&style=for-the-badge" height="40"/>
+    <img src="https://img.shields.io/badge/Portfolio-C71585?logo=vercel&logoColor=white&style=for-the-badge" height="40"/>
   </a>
 </p>
 
