@@ -4,6 +4,9 @@
    </span> 
 </h1>
 
+<img src="https://ghchart.rshah.org/Surya2004-janardhan" />
+
+
 <p align="center" style="font-size:1.45rem;">
   ⚡ Full Stack Developer • ⚛️ React & Native Enthusiast • 🧠 LLM Explorer • 🧩 Problem Solver
 </p>
