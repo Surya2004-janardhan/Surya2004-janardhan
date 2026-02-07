@@ -8,6 +8,12 @@
   ⚡ Full Stack Developer • ⚛️ React & Native Enthusiast • 🧠 LLM Explorer • 🧩 Problem Solver
 </p>
 
+
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=surya2004-janardhan&theme=radical" />
+</p>
+
 ---
 
 <p align="center">
