@@ -6,7 +6,7 @@
 
 
 <p align="center" style="font-size:1.45rem;">
-  ⚡ Full Stack Developer • ⚛️ React & Native Enthusiast • 🧠 LLM Explorer • 🧩 Problem Solver
+   May be LLM powered Human 
 </p>
 
 ---
