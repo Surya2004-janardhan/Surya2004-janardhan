@@ -1,6 +1,6 @@
 # Surya Janardhan
 
-A CS student who builds things end-to-end from schema design to deployment. I spend most of my time on full-stack apps and AI systems, mostly things I wanted to exist and couldn't find.
+A CS student who builds things end-to-end from schema design to deployment. I spend most of my time on full-stack apps and AI systems, mostly things I wanted to exist and sometimes couldn't find.
 
 ---
 
