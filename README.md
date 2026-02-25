@@ -2,7 +2,7 @@
 
 A CS student who builds things end-to-end from schema design to deployment. I spend most of my time on full-stack apps and AI systems, mostly things I wanted to exist and sometimes couldn't find.
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" width="100%">
 
 ## 4-Bits
 
@@ -11,7 +11,7 @@ A CS student who builds things end-to-end from schema design to deployment. I sp
 - Have shipped projects that are actually running, not just sitting on local
 - Open to collaborating on something worth building
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" width="100%">
 
 ## Stack [ ]
 
@@ -57,13 +57,13 @@ Tools
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white&style=flat-square)
 ![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?logo=githubcopilot&logoColor=white&style=flat-square)
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" width="100%">
 
 ## GitHub Activity
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Surya2004-janardhan&theme=github-compact&hide_border=true)
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" width="100%">
 
 ## Connect
 
