@@ -1,10 +1,10 @@
 # Surya Janardhan
 
-CS student who builds things end-to-end — from schema design to deployment, because that's usually the only way to understand what's actually broken. I spend most of my time on full-stack apps and AI systems, mostly things I wanted to exist and couldn't find.
+A CS student who builds things end-to-end from schema design to deployment. I spend most of my time on full-stack apps and AI systems, mostly things I wanted to exist and couldn't find.
 
 ---
 
-## About
+## 4-Bits
 
 - Comfortable across the stack — frontend, backend, databases, and infra
 - Lately deep in LLM agents, RAG pipelines, and agentic workflows
@@ -13,7 +13,7 @@ CS student who builds things end-to-end — from schema design to deployment, be
 
 ---
 
-## Stack
+## [ ]
 
 Languages
 
