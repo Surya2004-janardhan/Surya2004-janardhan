@@ -13,7 +13,7 @@ A CS student who builds things end-to-end from schema design to deployment. I sp
 
 ---
 
-## [ ]
+## Stack [ ]
 
 Languages
 
