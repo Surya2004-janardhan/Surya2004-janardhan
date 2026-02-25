@@ -1,20 +1,18 @@
-# Hey, I'm Surya 👋
+# Surya Janardhan
 
-I'm a developer who genuinely enjoys building things — especially when AI is involved. I spend a lot of my time thinking about how large language models work and how to turn that curiosity into useful projects. Probably a little too obsessed with clean code and good UX.
-
+I'm a Human who genuinely enjoys building things.
 ---
 
-## A bit about me
+## A bit 
 
-- 🎓 CS student with a soft spot for full-stack and AI/ML
-- 🤖 Currently exploring LLM agents, RAG pipelines, and agentic workflows
-- 🛠️ I like building things end-to-end — from the database to the UI
-- 🌱 Always learning something new (right now: LangGraph & multi-agent systems)
+- CS student with a soft spot for full-stack and AI/ML
+- Currently exploring LLM agents, RAG pipelines, and agentic workflows
+- I like building things end-to-end — from the database to the UI
 - 💬 Happy to collaborate on interesting problems — just reach out!
 
 ---
 
-## Tech I work with
+## Tech 
 
 **Languages**
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)
