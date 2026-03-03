@@ -4,7 +4,7 @@ A CS student who builds things end-to-end from schema design to deployment. I sp
 
 ## 4 Bits
 
-- Comfortable across the stack — frontend, backend, databases, and infra
+- Comfortable across the stack [frontend, backend, databases, and infra]
 - Lately deep in LLM agents, RAG pipelines, and agentic workflows
 - Have shipped projects that are actually running, not just sitting on local
 - Open to collaborating on something worth building
