@@ -21,6 +21,7 @@ Languages
 Frontend
 
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=flat-square)
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white&style=flat-square)
 ![React Native](https://img.shields.io/badge/React%20Native-61DAFB?logo=react&logoColor=black&style=flat-square)
 ![Expo](https://img.shields.io/badge/Expo-000020?logo=expo&logoColor=white&style=flat-square)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat-square)
