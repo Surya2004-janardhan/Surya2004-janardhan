@@ -37,6 +37,8 @@ Backend & Databases
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=flat-square)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=flat-square)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat-square)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=flat-square)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white&style=flat-square)
 
 AI / LLM
 
@@ -45,6 +47,11 @@ AI / LLM
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white&style=flat-square)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?logo=huggingface&logoColor=black&style=flat-square)
 ![Generative AI](https://img.shields.io/badge/Generative%20AI-FF6F00?logo=google&logoColor=white&style=flat-square)
+![LlamaFactory](https://img.shields.io/badge/LlamaFactory-8A2BE2?style=flat-square)
+![Ollama](https://img.shields.io/badge/Ollama-2E8B57?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-0052CC?style=flat-square)
+![AI Agents](https://img.shields.io/badge/AI%20Agents-FF1493?style=flat-square)
+
 
 Tools
 
@@ -53,6 +60,8 @@ Tools
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?logo=visualstudiocode&logoColor=white&style=flat-square)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white&style=flat-square)
 ![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?logo=githubcopilot&logoColor=white&style=flat-square)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=flat-square)
+
 
 ## GitHub Activity
 
