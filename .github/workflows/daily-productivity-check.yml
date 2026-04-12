@@ -1,0 +1,45 @@
+name: Daily productivity check
+
+on:
+  schedule:
+    - cron: '50 22 * * *' # daily at 22:50 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  check-commits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get today's date (UTC)
+        id: date
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          echo "TODAY=$TODAY" >> $GITHUB_ENV
+
+      - name: Count commits today
+        id: count
+        run: |
+          git fetch --all
+          COUNT=$(git rev-list --all --count --since="${TODAY}T00:00:00Z" --until="${TODAY}T23:59:59Z" || true)
+          echo "commits=$COUNT" >> $GITHUB_OUTPUT
+          echo "COUNT=$COUNT" >> $GITHUB_ENV
+
+      - name: Create reminder commit if no commits today
+        if: steps.count.outputs.commits == '0'
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          FILE="productivity-reminder-${TODAY}.md"
+          echo "Hey, you have not been productive today, Suray." > "$FILE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$FILE"
+          git commit -m "chore: reminder — no commits on ${TODAY}"
+          git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" HEAD:"$DEFAULT_BRANCH"
