@@ -75,3 +75,6 @@ Tools
   <a href="https://linkedin.com/in/surya-janardhan-chintala-a19403254"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=flat-square" /></a>
 </p>
 
+## Never mind
+https://surya2004-janardhan.github.io/Portfolio/
+
