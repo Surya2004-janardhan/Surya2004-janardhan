@@ -48,8 +48,8 @@ jobs:
             echo "Missing COMMIT_USER_NAME or COMMIT_USER_EMAIL secrets. Add your name and email." >&2
             exit 1
           fi
-          # FILE="productivity-reminder-${TODAY}.md"
-          # echo "Hey, you have not been productive today, Suray." > "$FILE"
+          FILE="productivity-reminder-${TODAY}.md"
+          echo "Hey, you have not been productive today, Surya." > "$FILE"
           git config user.name "$USER_NAME"
           git config user.email "$USER_EMAIL"
           git add "$FILE"
