@@ -1,7 +1,8 @@
 # Surya Janardhan
 
 A CS student who builds things end-to-end from schema design to deployment. I spend most of my time on full-stack apps and AI systems, mostly things I wanted to exist and sometimes couldn't find.
-Into grohubz.com
+
+Into - [GroHubz](https://grohubz.com)
 
 ## 4 Bits
 
