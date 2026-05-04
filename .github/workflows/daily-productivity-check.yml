@@ -27,11 +27,11 @@ jobs:
           ist = ZoneInfo("Asia/Kolkata")
           today = datetime.now(ist).date()
           start = datetime.combine(today, time(0, 0, 0), tzinfo=ist).astimezone(timezone.utc)
-          end = datetime.combine(today + timedelta(days=1), time(0, 0, 0), tzinfo=ist).astimezone(timezone.utc)
+          end = (datetime.combine(today + timedelta(days=1), time(0, 0, 0), tzinfo=ist) - timedelta(microseconds=1)).astimezone(timezone.utc)
           
           print(f"TODAY={today.isoformat()}")
           print(f"START_UTC={start.strftime('%Y-%m-%dT%H:%M:%SZ')}")
-          print(f"END_UTC={end.strftime('%Y-%m-%dT%H:%M:%SZ')}")
+          print(f"END_UTC={end.strftime('%Y-%m-%dT%H:%M:%S.%fZ')}")
           PY
 
       - name: Count commits today (all repos)
@@ -48,7 +48,7 @@ jobs:
             echo "Missing repository owner to evaluate commit activity." >&2
             exit 1
           fi
-          QUERY="author:${GH_USER} committer-date:>=${START_UTC} committer-date:<${END_UTC}"
+          QUERY="author:${GH_USER} committer-date:>=${START_UTC} committer-date:<=${END_UTC}"
           RESPONSE=$(curl -sS -G \
             -H "Authorization: Bearer $USER_PAT" \
             -H "Accept: application/vnd.github+json" \
