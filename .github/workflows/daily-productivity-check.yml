@@ -27,7 +27,7 @@ jobs:
           ist = ZoneInfo("Asia/Kolkata")
           today = datetime.now(ist).date()
           start = datetime.combine(today, time(0, 0, 0), tzinfo=ist).astimezone(timezone.utc)
-          end = datetime.combine(today + timedelta(days=1), time(0, 0, 0), tzinfo=ist).astimezone(timezone.utc)
+          end = (datetime.combine(today + timedelta(days=1), time(0, 0, 0), tzinfo=ist) - timedelta(seconds=1)).astimezone(timezone.utc)
           
           print(f"TODAY={today.isoformat()}")
           print(f"START_UTC={start.strftime('%Y-%m-%dT%H:%M:%SZ')}")
@@ -48,7 +48,7 @@ jobs:
             echo "Missing repository owner to evaluate commit activity." >&2
             exit 1
           fi
-          QUERY="author:${GH_USER} committer-date:>=${START_UTC} committer-date:<${END_UTC}"
+          QUERY="author:${GH_USER} committer-date:>=${START_UTC} committer-date:<=${END_UTC}"
           RESPONSE=$(curl -sS -G \
             -H "Authorization: token $USER_PAT" \
             -H "Accept: application/vnd.github+json" \
@@ -68,7 +68,7 @@ jobs:
             echo "Missing jq; unable to parse GitHub API response." >&2
             exit 1
           fi
-          COUNT=$(echo "$BODY" | jq -r 'select(.total_count != null) | .total_count' 2>/dev/null)
+          COUNT=$(echo "$BODY" | jq -r 'select(.total_count != null) | .total_count')
           if [ -z "$COUNT" ]; then
             echo "GitHub API response missing total_count or invalid JSON; cannot determine commit count." >&2
             echo "$BODY" >&2
