@@ -21,13 +21,13 @@ jobs:
         id: date
         run: |
           python - <<'PY' >> "$GITHUB_ENV"
-          from datetime import datetime, time, timedelta, timezone
+          from datetime import datetime, time, timezone
           from zoneinfo import ZoneInfo
           
           ist = ZoneInfo("Asia/Kolkata")
           today = datetime.now(ist).date()
           start = datetime.combine(today, time(0, 0, 0), tzinfo=ist).astimezone(timezone.utc)
-          end = datetime.combine(today + timedelta(days=1), time(0, 0, 0), tzinfo=ist).astimezone(timezone.utc)
+          end = datetime.combine(today, time(23, 59, 59), tzinfo=ist).astimezone(timezone.utc)
           
           print(f"TODAY={today.isoformat()}")
           print(f"START_UTC={start.strftime('%Y-%m-%dT%H:%M:%SZ')}")
@@ -48,9 +48,9 @@ jobs:
             echo "Missing repository owner to evaluate commit activity." >&2
             exit 1
           fi
-          QUERY="author:${GH_USER} committer-date:>=${START_UTC} committer-date:<${END_UTC}"
+          QUERY="author:${GH_USER} committer-date:>=${START_UTC} committer-date:<=${END_UTC}"
           RESPONSE=$(curl -sS -G \
-            -H "Authorization: token $USER_PAT" \
+            -H "Authorization: Bearer $USER_PAT" \
             -H "Accept: application/vnd.github+json" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
             --data-urlencode "q=$QUERY" \
