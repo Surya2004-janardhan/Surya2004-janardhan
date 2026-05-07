@@ -105,4 +105,4 @@ jobs:
           subject: "No commits yet for ${{ env.TODAY }}"
           to: ${{ secrets.EMAIL_USERNAME }}
           from: ${{ secrets.EMAIL_USERNAME }}
-          body: "Hey Surya — no commits were detected for ${{ env.TODAY }}. Please push at least one commit."
+          body: "Hey ${{ github.repository_owner }} — no commits were detected for ${{ env.TODAY }}. Please push at least one commit."
