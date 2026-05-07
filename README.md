@@ -78,5 +78,5 @@ Tools
 </p>
 
 ## Never mind
-https://surya2004-janardhan.github.io/Portfolio/
+http://surya2004-janardhan.github.io/SuryaJanardhan/
 
