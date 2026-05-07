@@ -6,7 +6,7 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   check-commits:
@@ -93,27 +93,16 @@ jobs:
           echo "commits=$COUNT" >> $GITHUB_OUTPUT
           echo "COUNT=$COUNT" >> $GITHUB_ENV
 
-      - name: Create reminder commit if no commits today
+      - name: Send email reminder if no commits today
         if: steps.count.outputs.commits == '0'
-        env:
-          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
-          REPO: ${{ github.repository }}
-          USER_PAT: ${{ secrets.USER_PAT }}
-          USER_NAME: ${{ secrets.COMMIT_USER_NAME }}
-          USER_EMAIL: ${{ secrets.COMMIT_USER_EMAIL }}
-        run: |
-          if [ -z "$USER_PAT" ]; then
-            echo "Missing secret USER_PAT. Add a personal access token (repo scope) as secret USER_PAT." >&2
-            exit 1
-          fi
-          if [ -z "$USER_NAME" ] || [ -z "$USER_EMAIL" ]; then
-            echo "Missing COMMIT_USER_NAME or COMMIT_USER_EMAIL secrets. Add your name and email." >&2
-            exit 1
-          fi
-          FILE="productivity-reminder-${TODAY}.md"
-          echo "Hey, you have not been productive today, Surya." > "$FILE"
-          git config user.name "$USER_NAME"
-          git config user.email "$USER_EMAIL"
-          git add "$FILE"
-          git commit -m "chore: reminder — no commits on ${TODAY}" --author="$USER_NAME <$USER_EMAIL>"
-          git push "https://$USER_PAT@github.com/$REPO" HEAD:"$DEFAULT_BRANCH"
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "No commits yet for ${{ env.TODAY }}"
+          to: ${{ secrets.EMAIL_USERNAME }}
+          from: ${{ secrets.EMAIL_USERNAME }}
+          body: "Hey Surya — no commits were detected for ${{ env.TODAY }}. Please push at least one commit."
